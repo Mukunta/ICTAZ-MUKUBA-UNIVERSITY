@@ -4,6 +4,10 @@
     color: #fff;
 }
 
+.projects-showcase h2 {
+    color: #fff;
+}
+
 .projects-showcase .project-cards {
     width: 100%;
     height: 80vh;
@@ -41,7 +45,7 @@
     padding: 1rem;
 }
 
-.projects-showcase .project-s p{
+.projects-showcase .project-s p {
     margin: 1rem 0;
 }
 
@@ -88,27 +92,36 @@
 .all-main .project-1 {
     background: url("/img/ilya-pavlov-OqtafYT5kTw-unsplash.jpg") no-repeat center center/cover;
 }
+
 .all-main .project-2 {
     background: url("/img/janko-ferlic-sfL_QOnmy00-unsplash.jpg") no-repeat center center/cover;
 }
+
 .all-main .project-3 {
     background: url("/img/honey-yanibel-minaya-cruz-laORtJZaieU-unsplash.jpg") no-repeat center center/cover;
 }
+
 .all-main .project-4 {
     background: url("/img/Teamwork.jpg") no-repeat center center/cover;
 }
+
 .all-main .project-5 {
     background: url("/img/martin-shreder-5Xwaj9gaR0g-unsplash.jpg") no-repeat center center/cover;
 }
+
 .all-main .project-6 {
     background: url("/img/martin-shreder-5Xwaj9gaR0g-unsplash.jpg") no-repeat center center/cover;
 }
 
-.all-main .main-content p{
+.all-main .main-content p {
     margin: 0.5rem 0;
 }
 
-.all-main .main-content .call{
+.all-main .main-content h3 {
+    color: #fff;
+}
+
+.all-main .main-content .call {
     display: block;
     margin-bottom: 1rem;
 }
@@ -135,16 +148,24 @@
 /*  */
 .action {
     width: 100%;
-    height: 350px;
+    min-height: 350px;
     background: url("/img/gift-habeshaw-BQHczaWvDYQ-unsplash.jpg") no-repeat center center/cover;
     position: relative;
 }
 
 .action .content {
     text-align: center;
-    width: 70%;
-    padding: 100px 0 0 30px;
+    width: 100%;
+    min-height: 40vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
     margin: auto;
+}
+
+.action h2 {
+    color: #fff;
 }
 
 .action .content p {
@@ -163,7 +184,7 @@
         grid-template-columns: 1fr;
     }
 
-    .projects-showcase .banner{
+    .projects-showcase .banner {
         width: 100%;
         grid-row: 1/3;
         grid-column: 1/3;

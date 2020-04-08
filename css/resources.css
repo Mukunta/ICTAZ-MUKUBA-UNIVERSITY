@@ -11,13 +11,6 @@ a {
     text-decoration: none;
 }
 
-h1,
-h2,
-h3,
-h4 {
-    color: #0067b8;
-}
-
 i {
     color: #fff;
 }
@@ -48,6 +41,11 @@ i {
     margin-top: 1rem;
     position: relative;
     border-radius: 12px;
+}
+
+.resources h3 {
+    color: #fff;
+    font-size: 30px;
 }
 
 .first-years {
@@ -83,11 +81,13 @@ i {
 .resources p,
 .resource-target p {
     margin: 0.5rem 0;
+    color: #fff;
+    font-size: 1rem;
 }
 
 .resource-target {
     width: 100%;
-    min-height: 50vh;
+    min-height: 40vh;
     padding: 1rem;
     margin-top: 1rem;
     border-radius: 12px;
