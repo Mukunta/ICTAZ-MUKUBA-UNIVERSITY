@@ -49,25 +49,47 @@
 /* overlay effect */
 .overlayFade {
     height: 100%;
-    width:100%;
-    top:0;
-    left:0;
+    width: 100%;
+    top: 0;
+    left: 0;
 }
 
 .overlay-1 {
     position: absolute;
     opacity: 0;
-    transition:all .7s ease;
+    transition: all .7s ease;
     background-color: rgba(40, 48, 51, 0.6);
 }
 
-.content-in:hover .overlay-1, .content-in:hover .overlayFade {
+.content-in:hover .overlay-1,
+.content-in:hover .overlayFade {
     opacity: 1;
 }
 
 .executives .social-media a {
     color: #0067b8;
     margin-right: 1rem;
+}
+
+@media(hover: hover) and (pointer: fine) {
+    .overlayFade {
+        height: 100%;
+        width: 100%;
+        top: 0;
+        left: 0;
+    }
+    
+    .overlay-1 {
+        position: absolute;
+        opacity: 0;
+        transition: all .7s ease;
+        background-color: rgba(40, 48, 51, 0.6);
+    }
+    
+    .content-in:hover .overlay-1,
+    .content-in:hover .overlayFade {
+        opacity: 1;
+    }    
 }
 
 @media(max-width: 700px) {
