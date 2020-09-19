@@ -7,7 +7,7 @@
       name="viewport"
       content="width=device-width, initial-scale=1, shrink-to-fit=no"
     />
-    <link rel="shortcut icon" type="image/x-icon" href="img/icon.ico" />
+    <link rel="shortcut icon" type="image/x-icon" href="img/icon.ico">
 
     <!-- Bootstrap CSS -->
     <link
@@ -53,7 +53,7 @@
               <a href="about.html" class="nav-link">About</a>
             </li>
             <li class="nav-item">
-              <a href="resource.html" class="nav-link">Resources</a>
+              <a href="resource.html" class="nav-link active">Resources</a>
             </li>
             <li class="nav-item">
               <a href="projects.html" class="nav-link">Projects</a>
@@ -67,178 +67,110 @@
     </nav>
     <!-- Navigation end -->
 
-    <!-- Projects Showcase Start -->
-    <section class="container project-showcase">
-      <div
-        class="project-showcase-content d-flex flex-row justify-content-between"
-      >
+    <!-- Resource Center Showcase -->
+    <section id="resource-showcase" class="mb-4 text-white">
+      <div class="overlay">
         <div
-          class="ps-1 d-flex flex-column justify-content-center text-white p-3"
+          id="resource-center-content"
+          class="container d-flex flex-column justify-content-center"
         >
-          <h2 class="h1">Bring your ideas to life</h2>
-          <p>Innovate and Create with ease we will provide the platform.</p>
-        </div>
-        <div class="ps-2 text-white d-flex flex-column">
-          <div class="ps-inner-1 p-3 my-auto">
-            <h3 class="text-primary pt-4 font-weight-bold">
-              Project showcase: Society Website
-            </h3>
-            <p>
-              Our maiden project ever evolving as we learn more webdev skills.
-              Enjoy your browsing.
-            </p>
-          </div>
-          <div class="ps-inner-2 p-3 my-auto">
-            <h3 class="text-primary pt-4 pb-3 font-weight-bold">
-              Project Showcase: Resource Center
-            </h3>
-            <p>
-              Aimed at bringing important learning Resources to our members
-              fingertips.
-            </p>
-            <a href="resource.html" class="btn btn-primary"
-              >Visit Resource Center <i class="fa fa-chevron-right"></i
+          <h2 class="text-primary mb-3 h1">Welcome To Resource Center</h2>
+          <p class="display-5 mb-4">
+            We have tailor made a great list of resources to help facilitate and
+            enhance your learning of computer science from the basics up to full
+            professional level. From programing basics to computer networking
+            and architecture and software enginnering.
+          </p>
+          <div>
+            <a href="#" class="text-white btn btn-primary"
+              >Explore <i class="fa fa-chevron-down"></i
             ></a>
           </div>
         </div>
       </div>
     </section>
-    <!-- Projects Showcase End -->
-    <div class="container">
-      <hr />
-      <h4 class="text-primary text-center h2">Our Projects</h4>
-      <hr />
-    </div>
-    <!-- Projects start -->
-    <div class="container">
+    <!-- Resource Center Showcase end -->
+
+    <!-- Resource Centers -->
+    <section id="resources" class="container mb-4">
       <div class="row">
-        <div class="col-md-4 mb-3">
-          <div class="card">
-            <img
-              class="card-img-top"
-              src="img/ilya-pavlov-OqtafYT5kTw-unsplash.jpg"
-              alt="Card image cap"
-            />
-            <div class="card-body">
-              <h5 class="card-title">Project: Society Website</h5>
-              <p class="card-text">
-                This is the societies maiden project aimed at showcasing and
-                sharing our knowledge, skills and activities.
-              </p>
-              <a href="index.html" class="btn btn-primary"
-                >See Our Activities <i class="fa fa-chevron-right"></i
+        <div class="col-md-6 mb-4">
+          <div
+            class="first-year d-flex flex-column justify-content-center p-3"
+          >
+            <h3 class="h2 text-success font-weight-bold">First Year Resources</h1>
+            <p class="text-white">
+              First year in computer science introduces you to the fundumentals of computer
+              systems and operations and an introduction to programming via the pascal
+              programming language. Explore some essential resources to help gain the
+              ropes.
+            </p>
+            <div>
+              <a href="firstyear.html" class="btn btn-success"
+                >Explore Now <i class="fa fa-chevron-right"></i
               ></a>
             </div>
           </div>
         </div>
-        <div class="col-md-4 mb-3">
-          <div class="card">
-            <img
-              class="card-img-top"
-              src="img/janko-ferlic-sfL_QOnmy00-unsplash.jpg"
-              alt="Card image cap"
-            />
-            <div class="card-body">
-              <h5 class="card-title">Project: Resource Center</h5>
-              <p class="card-text">
-                A one stop guide to the best free online resources to help guide
-                you across all platforms of computer science.
-              </p>
-              <a href="resource.html" class="btn btn-primary"
-                >Visit Resource Center <i class="fa fa-chevron-right"></i
-              ></a>
-            </div>
-          </div>
-        </div>
-        <div class="col-md-4 mb-3">
-          <div class="card">
-            <img
-              class="card-img-top"
-              src="img/john-schnobrich-2FPjlAyMQTA-unsplash.jpg"
-              alt="Card image cap"
-            />
-            <div class="card-body">
-              <h5 class="card-title">Project: Society Blog</h5>
-              <p class="card-text">
-                This blog is focused on the latest technology and its impact on
-                education. Expect a lot of tutorials, tips and tricks too!
-              </p>
-              <a
-                href="https://ictazmukuba.blogspot.com"
-                class="btn btn-primary"
-                target="_blank"
-                >Visit Our Blog <i class="fa fa-chevron-right"></i
+
+        <div class="col-md-6 mb-4">
+          <div
+            class="second-year d-flex flex-column justify-content-center p-3"
+          >
+            <h3 class="h2 text-primary font-weight-bold">Second Year Resources</h1>
+            <p class="text-white">
+              With intermediate knowledge of computer systems. Second year introduces to fundumentals
+              of computer networking, computer organization and architecture as well as algorithms
+              and data structures of C++. The following resources provide you with the neccesities.
+            </p>
+            <div>
+              <a href="secondyear.html" class="btn btn-primary"
+                >Explore Now <i class="fa fa-chevron-right"></i
               ></a>
             </div>
           </div>
         </div>
       </div>
-      <!-- next row -->
+
       <div class="row">
-        <div class="col-md-4 mb-3">
-          <div class="card">
-            <img
-              class="card-img-top"
-              src="img/martin-shreder-5Xwaj9gaR0g-unsplash.jpg"
-              alt="Card image cap"
-            />
-            <div class="card-body">
-              <h5 class="card-title">Project: Coming Soon</h5>
-              <p class="card-text">Might Be Yours...</p>
-              <a
-                href="https://ictazmukuba.blogspot.com"
-                class="btn btn-primary"
-                target="_blank"
-                >Visit Our Blog <i class="fa fa-chevron-right"></i
+        <div class="col-md-6 mb-3">
+          <div
+            class="third-year d-flex flex-column justify-content-center p-3"
+          >
+            <h3 class="text-warning h2 font-weight-bold">Third Year Resources</h3>
+            <p class="text-white">
+              You are now a seasoned computer programmmer and ready to dive into software development
+              and database management. With the skills you have you should be on your way to formulate
+              digital solutions for everyday problems. The following resources are vital on your learning
+              process.
+            </p>
+            <div>
+              <a href="fourthyear.html" class="btn btn-warning"
+                >Explore Now <i class="fa fa-chevron-right"></i
               ></a>
             </div>
           </div>
         </div>
-        <div class="col-md-4 mb-3">
-          <div class="card">
-            <img
-              class="card-img-top"
-              src="img/martin-shreder-5Xwaj9gaR0g-unsplash.jpg"
-              alt="Card image cap"
-            />
-            <div class="card-body">
-              <h5 class="card-title">Project: Coming Soon</h5>
-              <p class="card-text">Might Be Yours...</p>
-              <a
-                href="https://ictazmukuba.blogspot.com"
-                class="btn btn-primary"
-                target="_blank"
-                >Visit Our Blog <i class="fa fa-chevron-right"></i
+
+        <div class="col-md-6 mb-3">
+          <div
+            class="fourth-year d-flex flex-column justify-content-center p-3"
+          >
+            <h3 class="text-danger h2 font-weight-bold">Final Year Resources</h1>
+            <p class="text-white">
+              ou are ready to conquer the worldof computer science and a knowledgable educator or skilled technician. You are going to be learning advanced software development and are supposed to prove your skill with a final project. Here are some resources to help guide you through.
+            </p>
+            <div>
+              <a href="fourthyear.html" class="btn btn-danger"
+                >Explore Now <i class="fa fa-chevron-right"></i
               ></a>
             </div>
           </div>
         </div>
-        <div class="col-md-4 mb-3">
-          <div class="card">
-            <img
-              class="card-img-top"
-              src="img/martin-shreder-5Xwaj9gaR0g-unsplash.jpg"
-              alt="Card image cap"
-            />
-            <div class="card-body">
-              <h5 class="card-title">Project: Coming Soon</h5>
-              <p class="card-text">Might Be Yours</p>
-              <a
-                href="https://ictazmukuba.blogspot.com"
-                class="btn btn-primary"
-                target="_blank"
-                >Visit Our Blog <i class="fa fa-chevron-right"></i
-              ></a>
-            </div>
-          </div>
-        </div>
-        <!-- hmack -->
       </div>
-    </div>
-    <!-- projects end -->
-    <!-- call to action -->
-    <div class="container"></div>
-    <!-- call to action banner -->
+    </section>
+    <!-- Resource Centers End -->
+
     <!-- Footer -->
     <footer class="page-footer font-small bg-dark text-white pt-4">
       <!-- Footer Links -->
