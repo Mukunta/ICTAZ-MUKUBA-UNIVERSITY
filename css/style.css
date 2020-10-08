@@ -125,6 +125,14 @@ body {
   height: 100%;
 }
 
+/* Third Year Content Coming Soon */
+.here-soon {
+  height: 70vh;
+  width: 100%;
+  background: url('/img/gift-habeshaw-BQHczaWvDYQ-unsplash.jpg') no-repeat
+    center center/cover;
+}
+
 /* Projects Page CSS Start*/
 .project-showcase {
   height: 80vh;
@@ -162,6 +170,20 @@ body {
   background: url('/img/anyonecan.jpg') no-repeat center center/cover;
 }
 /* Projects Page CSS End */
+
+/* Alumni Page CSS start */
+#alumni-showcase {
+  height: 60vh;
+  width: 100%;
+  position: relative;
+  background: url('/img/honey-yanibel-minaya-cruz-laORtJZaieU-unsplash.jpg')
+    no-repeat center center/cover;
+}
+
+#alumni-showcase #alumni-center-content {
+  min-height: 60vh;
+}
+/* Alumni Page CSS end */
 
 @media (max-width: 769px) {
   .carousel .carousel-item {

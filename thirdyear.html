@@ -7,7 +7,7 @@
       name="viewport"
       content="width=device-width, initial-scale=1, shrink-to-fit=no"
     />
-    <link rel="shortcut icon" type="image/x-icon" href="img/icon.ico">
+    <link rel="shortcut icon" type="image/x-icon" href="img/icon.ico" />
 
     <!-- Bootstrap CSS -->
     <link
@@ -53,7 +53,7 @@
               <a href="about.html" class="nav-link">About</a>
             </li>
             <li class="nav-item">
-              <a href="resource.html" class="nav-link active">Resources</a>
+              <a href="resource.html" class="nav-link">Resources</a>
             </li>
             <li class="nav-item">
               <a href="projects.html" class="nav-link">Projects</a>
@@ -65,111 +65,30 @@
         </div>
       </div>
     </nav>
-    <!-- Navigation end -->
-
-    <!-- Resource Center Showcase -->
-    <section id="resource-showcase" class="mb-4 text-white">
-      <div class="overlay">
-        <div
-          id="resource-center-content"
-          class="container d-flex flex-column justify-content-center"
-        >
-          <h2 class="text-primary mb-3 h1">Welcome To Resource Center</h2>
-          <p class="display-5 mb-4">
-            We have tailor made a great list of resources to help facilitate and
-            enhance your learning of computer science from the basics up to full
-            professional level. From programing basics to computer networking
-            and architecture and software enginnering.
-          </p>
-          <div>
-            <a href="#" class="text-white btn btn-primary"
-              >Explore <i class="fa fa-chevron-down"></i
-            ></a>
-          </div>
-        </div>
+    <!-- showcase-content -->
+    <div class="showcase">
+      <div
+        class="container content text-light d-flex flex-column justify-content-center"
+      >
+        <h3 class="h1 mb-2 text-warning">Second Year Resources</h3>
+        <p>
+          At this stage you are a seasoned developer and computer science
+          instructor ready to take on the world. This year is were you polish up
+          your coding and research skills with your final project. We have
+          compiled you a list of resources to help see your through.
+        </p>
       </div>
+    </div>
+    <!-- Content Will Be Here Soon -->
+    <section
+      class="container here-soon my-3 d-flex flex-column justify-content-center align-items-center text-white"
+    >
+      <h2 class="h1">Content Coming Soon</h2>
+      <p class="lead">Watch this space</p>
+      <a href="resource.html" class="btn btn-warning">
+        <i class="fa fa-chevron-left"></i> Back To Resource Home
+      </a>
     </section>
-    <!-- Resource Center Showcase end -->
-
-    <!-- Resource Centers -->
-    <section id="resources" class="container mb-4">
-      <div class="row">
-        <div class="col-md-6 mb-4">
-          <div
-            class="first-year d-flex flex-column justify-content-center p-3"
-          >
-            <h3 class="h2 text-success font-weight-bold">First Year Resources</h1>
-            <p class="text-white">
-              First year in computer science introduces you to the fundumentals of computer
-              systems and operations and an introduction to programming via the pascal
-              programming language. Explore some essential resources to help gain the
-              ropes.
-            </p>
-            <div>
-              <a href="firstyear.html" class="btn btn-success"
-                >Explore Now <i class="fa fa-chevron-right"></i
-              ></a>
-            </div>
-          </div>
-        </div>
-
-        <div class="col-md-6 mb-4">
-          <div
-            class="second-year d-flex flex-column justify-content-center p-3"
-          >
-            <h3 class="h2 text-primary font-weight-bold">Second Year Resources</h1>
-            <p class="text-white">
-              With intermediate knowledge of computer systems. Second year introduces to fundumentals
-              of computer networking, computer organization and architecture as well as algorithms
-              and data structures of C++. The following resources provide you with the neccesities.
-            </p>
-            <div>
-              <a href="secondyear.html" class="btn btn-primary"
-                >Explore Now <i class="fa fa-chevron-right"></i
-              ></a>
-            </div>
-          </div>
-        </div>
-      </div>
-
-      <div class="row">
-        <div class="col-md-6 mb-3">
-          <div
-            class="third-year d-flex flex-column justify-content-center p-3"
-          >
-            <h3 class="text-warning h2 font-weight-bold">Third Year Resources</h3>
-            <p class="text-white">
-              You are now a seasoned computer programmmer and ready to dive into software development
-              and database management. With the skills you have you should be on your way to formulate
-              digital solutions for everyday problems. The following resources are vital on your learning
-              process.
-            </p>
-            <div>
-              <a href="thirdyear.html" class="btn btn-warning"
-                >Explore Now <i class="fa fa-chevron-right"></i
-              ></a>
-            </div>
-          </div>
-        </div>
-
-        <div class="col-md-6 mb-3">
-          <div
-            class="fourth-year d-flex flex-column justify-content-center p-3"
-          >
-            <h3 class="text-danger h2 font-weight-bold">Final Year Resources</h1>
-            <p class="text-white">
-              ou are ready to conquer the worldof computer science and a knowledgable educator or skilled technician. You are going to be learning advanced software development and are supposed to prove your skill with a final project. Here are some resources to help guide you through.
-            </p>
-            <div>
-              <a href="fourthyear.html" class="btn btn-danger"
-                >Explore Now <i class="fa fa-chevron-right"></i
-              ></a>
-            </div>
-          </div>
-        </div>
-      </div>
-    </section>
-    <!-- Resource Centers End -->
 
     <!-- Footer -->
     <footer class="page-footer font-small bg-dark text-white pt-4">
@@ -291,7 +210,7 @@
 
       <!-- Copyright -->
       <div class="footer-copyright text-center py-3">
-        © <span id="year"></span> Copyright:
+        © <span class="current-year"></span> Copyright:
         <a href="index.html" class="light-blue"> ICTAZ Mukuba University</a>
       </div>
       <!-- Copyright -->
@@ -314,7 +233,6 @@
       integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy"
       crossorigin="anonymous"
     ></script>
-    <script src="js/jquery-3.5.1.min.js"></script>
     <script src="js/custom.js"></script>
   </body>
 </html>
